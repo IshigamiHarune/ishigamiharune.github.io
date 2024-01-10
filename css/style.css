@@ -67,7 +67,7 @@ nav li a,nav li span{
     text-decoration:none
 }
 nav li a:hover,nav li span:hover{
-    background:#f09090;
+    background:#485da9;
     color:#fff;
     transition:.6s
 }
