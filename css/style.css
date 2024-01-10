@@ -71,7 +71,7 @@ nav li a:hover,nav li span:hover{
 }
 /* サブメニュー */
 .sub-menu{
-    background:#707dad;
+    background:#485da9;
     position:absolute;
     width:180px; /* サブメニュー幅 */
     z-index:20
@@ -108,7 +108,7 @@ nav li:hover .sub-menu li{
 ページ上部へのリンク
 --------------------------------------------------------*/
 #pagetop {
-    background:#707dad;
+    background:#485da9;
     color:#fff;
     border-radius:10px;
     box-sizing:border-box;
