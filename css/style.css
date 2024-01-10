@@ -266,10 +266,10 @@ nav li a,nav li span{
     overflow:visible; /* リセット */
     height:auto; /* 高さリセット */
     width:50% /* 一列ごとにするならここを削除 */
-    line-height:inherit; /* 高さリセット */
 }
-.sub-menu li a{ /* nav li:hover  */
-    padding:10px
+.sub-menu li{ /* nav li:hover  */
+    height:auto;
+    line-height:inherit; /* 高さリセット */
 }
 
  /* メニューを開くボタン */
