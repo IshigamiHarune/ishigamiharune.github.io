@@ -231,7 +231,8 @@ h1{
     display:none;
     position:absolute; /* 表示位置固定 */
     left:0; /* headerを基準とした位置 */
-    z-index:20
+    z-index:20;
+    color:#fff
 }
 nav li{
     display:block; /* 横並び解除 */
