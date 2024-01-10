@@ -14,6 +14,7 @@ body{
     overflow-y:scroll;
     word-wrap:break-word;
     background-image: url(../img/bk.jpg);
+    filter: brightness(200%);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
