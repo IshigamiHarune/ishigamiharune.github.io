@@ -12,7 +12,7 @@ body{
     letter-spacing:.1em;
     text-align:center;
     overflow-y:scroll;
-    background-image: url(../img/bk.PNG);
+    background-image: url(../img/bg.PNG);
 }
 a{
     color:#5f9fff;
