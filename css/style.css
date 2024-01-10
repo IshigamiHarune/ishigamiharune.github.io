@@ -71,7 +71,7 @@ nav li a:hover,nav li span:hover{
 }
 /* サブメニュー */
 .sub-menu{
-    background:#908dc3;
+    background:#707dad;
     position:absolute;
     width:180px; /* サブメニュー幅 */
     z-index:20
@@ -268,25 +268,7 @@ nav li a:hover,nav li span:hover{
 nav li:hover .sub-menu li{
     height:auto;line-height:inherit /* 高さリセット */
 }
-nav li span:after{
-    border-top:3px solid #666; /* メニュー「>」の色 */
-    border-right:3px solid #666; /* メニュー「>」の色 */
-    content:"";
-    display:block;
-    margin-top:-5px;
-    position:absolute;
-    top:50%;right:20px;
-    height:5px;width:5px;
-    -ms-transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    transform:rotate(45deg);
-    transition:.5s
-}
-nav li span.open:after {
-    -ms-transform:rotate(135deg);
-    -webkit-transform:rotate(135deg);
-    transform:rotate(135deg)
-}
+
  /* メニューを開くボタン */
 #open{
     border:3px double #999;
