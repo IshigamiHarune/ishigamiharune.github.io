@@ -235,6 +235,7 @@ h1{
     position:absolute; /* 表示位置固定 */
     left:0; /* headerを基準とした位置 */
     z-index:20;
+    color:#fff
 }
 nav li{
     display:block; /* 横並び解除 */
@@ -259,7 +260,8 @@ nav li a:hover,nav li span:hover{
     position:static;
     display:none; /* 隠す */
     width:100%;
-    z-index:auto
+    z-index:auto;
+    color:#fff
 }
 .sub-menu li{
     display:inline-block;/* 一列ごとにするならここを削除 */
