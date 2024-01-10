@@ -15,6 +15,7 @@ body{
     word-wrap:break-word;
 }
 body::before {
+    content:"";
     position: absolute;
     background-image: url(../img/bk.jpg);
     filter: brightness(200%);
