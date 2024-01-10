@@ -13,8 +13,7 @@ body{
     text-align:center;
     overflow-y:scroll;
     background-image: url(../img/bk.jpg);
-    object-fit: cover;
-    width: 100%;
+    background-size:  cover; 
 }
 a{
     color:#5f9fff;
