@@ -71,7 +71,7 @@ nav li a:hover,nav li span:hover{
 }
 /* サブメニュー */
 .sub-menu{
-    background:#707dad;
+    background:#485da9;
     position:absolute;
     width:180px; /* サブメニュー幅 */
     z-index:20
@@ -84,8 +84,11 @@ nav li a:hover,nav li span:hover{
     width:100%
 }
 .sub-menu li a{
-    display:block;
-    color:#fff;
+    display:block
+}
+.sub-menu li a:hover{
+    background:#485da9;
+    color:#fff
 }
 nav li:hover .sub-menu li{
     visibility:visible;
@@ -105,7 +108,7 @@ nav li:hover .sub-menu li{
 ページ上部へのリンク
 --------------------------------------------------------*/
 #pagetop {
-    background:#918ecd;
+    background:#485da9;
     color:#fff;
     border-radius:10px;
     box-sizing:border-box;
@@ -217,45 +220,48 @@ img{
 header{
     position: relative; /* メニュー表示位置の基準 */
 }
+.header a{
+    color:#fff;
+}
 h1{
     min-height:40px;
     padding:0 18px 0 0
 }
 /* メニュー */
 #menu{
-    background:#ead1dc; /* メニューの背景色 */
+    background:#485da9; /* メニューの背景色 */
     margin:0;
     display:none;
     position:absolute; /* 表示位置固定 */
     left:0; /* headerを基準とした位置 */
-    z-index:20
+    z-index:20;
+    color:#fff
 }
 nav li{
     display:block; /* 横並び解除 */
-    height:auto;
-    line-height:inherit; /* 高さリセット */
+    height:auto;line-height:inherit; /* 高さリセット */
 }
 nav > ul > li+li:before{
     content:none
 }
 nav li a,nav li span{
-    color: #fff;
     display:block;
     position:relative;
     padding:15px 20px /* リンクの余白 一列の高さはここで調節 */
 }
-/* nav li a:hover,nav li span:hover{
+nav li a:hover,nav li span:hover{
     background:#485da9;
     color:#fff;
     letter-spacing:1em
-} */
+}
 /* サブメニュー */
 .sub-menu{
     background:none;
     position:static;
     display:none; /* 隠す */
     width:100%;
-    z-index:auto
+    z-index:auto;
+    color:#fff
 }
 .sub-menu li{
     display:inline-block;/* 一列ごとにするならここを削除 */
@@ -264,9 +270,9 @@ nav li a,nav li span{
     height:auto; /* 高さリセット */
     width:50% /* 一列ごとにするならここを削除 */
 }
-/* nav li:hover .sub-menu li{
+nav li:hover .sub-menu li{
     height:auto;line-height:inherit /* 高さリセット */
-} */
+}
 
  /* メニューを開くボタン */
 #open{
