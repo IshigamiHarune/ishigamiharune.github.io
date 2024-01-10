@@ -236,7 +236,8 @@ h1{
 }
 nav li{
     display:block; /* 横並び解除 */
-    height:auto;line-height:inherit /* 高さリセット */
+    height:auto;line-height:inherit; /* 高さリセット */
+    color:#fff
 }
 nav > ul > li+li:before{
     content:none
