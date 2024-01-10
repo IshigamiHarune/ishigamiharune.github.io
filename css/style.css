@@ -73,7 +73,7 @@ nav li a:hover,nav li span:hover{
 }
 /* サブメニュー */
 .sub-menu{
-    background:#f0c0c0;
+    background:#918ecd;
     position:absolute;
     width:180px; /* サブメニュー幅 */
     z-index:20
@@ -110,7 +110,7 @@ nav li:hover .sub-menu li{
 ページ上部へのリンク
 --------------------------------------------------------*/
 #pagetop {
-    background:#f0c0c0;
+    background:#918ecd;
     color:#999;
     border-radius:10px;
     box-sizing:border-box;
@@ -128,7 +128,7 @@ margin: 10px 20px 10px 0px;
 見出し、枠、線
 --------------------------------------------------------*/
 h1{
-    color:#f08080;
+    color:#38357a;
     font-size:1.6em;
     line-height:1;
     margin:0 0 0.5em 0;
@@ -152,7 +152,7 @@ h3{
     font-size: 1.1em;
     font-weight: bold;
     margin: 20px 74px 10px;
-    color: #f08080;
+    color: #38357a;
     border-bottom: 2px solid;
     border-left:6px solid;
     padding:.2em .5em;
@@ -228,7 +228,7 @@ h1{
 }
 /* メニュー */
 #menu{
-    background:#f0c0c0; /* メニューの背景色 */
+    background:#918ecd; /* メニューの背景色 */
     margin:0;
     display:none;
     position:absolute; /* 表示位置固定 */
