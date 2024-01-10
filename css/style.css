@@ -73,7 +73,7 @@ nav li a:hover,nav li span:hover{
 }
 /* サブメニュー */
 .sub-menu{
-    background:#918ecd;
+    background:#38357a7a;
     position:absolute;
     width:180px; /* サブメニュー幅 */
     z-index:20
@@ -89,8 +89,8 @@ nav li a:hover,nav li span:hover{
     display:block
 }
 .sub-menu li a:hover{
-    background:#f09090;
-    color:#666
+    background:#485da9;
+    color:#fff
 }
 nav li:hover .sub-menu li{
     visibility:visible;
