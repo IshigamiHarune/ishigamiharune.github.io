@@ -13,10 +13,14 @@ body{
     text-align:center;
     overflow-y:scroll;
     word-wrap:break-word;
+}
+body::before {
+    position: absolute;
     background-image: url(../img/bk.jpg);
     filter: brightness(200%);
     background-repeat: no-repeat;
     background-position: 0 0;
+    z-index: -1;
 }
 a{
     color:#5f9fff;
