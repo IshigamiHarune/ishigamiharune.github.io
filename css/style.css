@@ -248,8 +248,8 @@ nav li a,nav li span{
     padding:15px 20px /* リンクの余白 一列の高さはここで調節 */
 }
 nav li a:hover,nav li span:hover{
-    background:#f09090;
-    color:#999;
+    background:#38357a;
+    color:#fff;
     letter-spacing:1em
 }
 /* サブメニュー */
