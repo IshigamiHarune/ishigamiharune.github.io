@@ -247,11 +247,11 @@ nav li a,nav li span{
     padding:15px 20px;
     color: #fff;
 }
-nav li a:hover,nav li span:hover{
+/* nav li a:hover,nav li span:hover{
     background:#485da9;
     color:#fff;
     letter-spacing:1em
-}
+} */
 /* サブメニュー */
 .sub-menu{
     background:none;
@@ -267,8 +267,9 @@ nav li a:hover,nav li span:hover{
     height:auto; /* 高さリセット */
     width:50% /* 一列ごとにするならここを削除 */
 }
-nav li:hover .sub-menu li{
-    height:auto;line-height:inherit /* 高さリセット */
+.sub-menu li{ /* nav li:hover  */
+    height:auto;
+    line-height:inherit; /* 高さリセット */
 }
 
  /* メニューを開くボタン */
