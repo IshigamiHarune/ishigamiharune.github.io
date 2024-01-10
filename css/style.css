@@ -13,6 +13,7 @@ body{
     text-align:center;
     overflow-y:scroll;
     background-image: url(../img/bg.png);
+    background-position: center;
 }
 a{
     color:#5f9fff;
