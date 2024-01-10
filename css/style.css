@@ -108,7 +108,7 @@ nav li:hover .sub-menu li{
 ページ上部へのリンク
 --------------------------------------------------------*/
 #pagetop {
-    background:#918ecd;
+    background:#5f9fff;
     color:#fff;
     border-radius:10px;
     box-sizing:border-box;
@@ -226,7 +226,7 @@ h1{
 }
 /* メニュー */
 #menu{
-    background:#ead1dc; /* メニューの背景色 */
+    background:#485da9; /* メニューの背景色 */
     margin:0;
     display:none;
     position:absolute; /* 表示位置固定 */
