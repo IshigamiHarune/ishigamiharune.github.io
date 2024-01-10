@@ -13,7 +13,6 @@ body{
     text-align:center;
     overflow-y:scroll;
     background-image: url(../img/bk.PNG);
-    background-size:  cover;
     background-repeat: no-repeat;
 }
 a{
