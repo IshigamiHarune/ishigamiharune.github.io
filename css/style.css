@@ -12,9 +12,8 @@ body{
     letter-spacing:.1em;
     text-align:center;
     overflow-y:scroll;
-    /* overflow-wrap:break-word; */
     word-wrap:break-word;
-    background-image: url(img/bk.jpg);
+    background-image: url(../img/bk.jpg);
     background-repeat: no-repeat;
     background-position: 0 0;
 }
