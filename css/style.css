@@ -30,7 +30,7 @@ a{
 上(ヘッダー)
 --------------------------------------------------------*/
 header a{
-    color:#38357a;
+    color:#485da9;
     text-decoration: none;
 }
 .header-inner{
@@ -126,7 +126,7 @@ margin: 10px 20px 10px 0px;
 見出し、枠、線
 --------------------------------------------------------*/
 h1{
-    color:#38357a;
+    color:#485da9;
     font-size:1.6em;
     line-height:1;
     margin:0 0 0.5em 0;
@@ -150,7 +150,7 @@ h3{
     font-size: 1.1em;
     font-weight: bold;
     margin: 20px 74px 10px;
-    color: #38357a;
+    color: #485da9;
     border-bottom: 2px solid;
     border-left:6px solid;
     padding:.2em .5em;
@@ -246,7 +246,7 @@ nav li a,nav li span{
     padding:15px 20px /* リンクの余白 一列の高さはここで調節 */
 }
 nav li a:hover,nav li span:hover{
-    background:#38357a;
+    background:#485da9;
     color:#fff;
     letter-spacing:1em
 }
