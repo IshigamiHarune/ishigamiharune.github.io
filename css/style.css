@@ -220,7 +220,7 @@ img{
 header{
     position: relative; /* メニュー表示位置の基準 */
 }
-header a{
+.header a{
     color:#fff;
 }
 h1{
