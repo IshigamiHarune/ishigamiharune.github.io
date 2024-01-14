@@ -248,6 +248,9 @@ nav li a,nav li span{
     padding:15px 20px;
     color: #fff;
 }
+.sub-menu li a {
+    padding: 0;
+}
 /* nav li a:hover,nav li span:hover{
     background:#485da9;
     color:#fff;
