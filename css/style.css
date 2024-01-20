@@ -45,7 +45,8 @@ a{
     translate: 0 100vh;
 }
 #loading p{
-    font-size: 2rem;
+    font-size:1.6em;
+    font-weight:bold;
     color: #fff;
 }
 /*--------------------------------------------------------
