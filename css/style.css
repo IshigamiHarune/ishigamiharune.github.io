@@ -225,21 +225,7 @@ img{
     text-align: center;
     margin: auto;
 }
-.img{
-    text-align: center;
-    width: 50%;
-    margin: auto;
-}
-.prf{
-    width: 80%;
-    border-radius: 50%;
-    opacity: 0.7;
-}
 
-/*--------------------------------------------------------
-スマホ、タブレット用
-横幅600pxで切り替え
---------------------------------------------------------*/
 @media screen and (max-width: 600px){
 header{
     position: relative; /* メニュー表示位置の基準 */
