@@ -26,11 +26,12 @@ li {
 .slide div {
   width: 33.33%;
   height: 100%;
-  font-size: 16px;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
 }
 .slide1 {
   transform: translateX(0);
@@ -52,10 +53,6 @@ li {
 }
 .slide7 {
     transform: translateX(-85.8%);
-}
-/* 背景色 */
-.slide div{ 
-    background-color: #fff;
 }
 .next {
   position: absolute;
